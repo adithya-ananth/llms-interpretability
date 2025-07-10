@@ -343,6 +343,7 @@ logging.info(f'DONE.\n Best accuracy of {best_accuracy*100}% from layer {best_la
 
 print(f'DONE.\n Best accuracy of {best_accuracy*100}% from layer {best_layer}.')
 
+# Generate plot
 plt.plot(layer_wise_accuracies)
 plt.xlabel('Layer')
 plt.ylabel('Accuracy')
