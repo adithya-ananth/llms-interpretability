@@ -1,5 +1,5 @@
 from IPython.display import clear_output
-import nnsight
+
 from nnsight import CONFIG
 from nnsight import LanguageModel, util
 from nnsight.tracing.graph import Proxy
